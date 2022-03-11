@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.navhead{
+    background-color: white;
+    color: red;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+    text-align: center;    
+}
+
+.school{
+    font-size: 30px;
+    font-family: 'Kiwi Maru', serif;   
+    margin: auto;
+}
+
+.navbar{
+    background-color: rgb(27, 219, 203);
+    font-family: 'Kiwi Maru', serif;   
+    padding: 15px;
+}
+
+.btn{
+    margin: 2px;
+}
+
+.container{
+    margin: 0%;
+}
+#carouselExampleIndicators{
+    margin: 0%;
+}
+
+nav{
+    /* border: 1px solid black; */
+    margin-bottom: 2px;
+}
+nav a{
+    padding: 13px;
+    color: black;
+    border: green solid 1px;
+    border-radius: 3px;
+}
+nav a:hover{
+    color: white;
+    background-color:green;
+}
+
+.box{
+    /* border: 1px solid black;
+    background-color: rgb(27, 219, 203); */
+    height: 250px;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2{
+    background-color: rgb(170, 69, 238);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Kiwi Maru', serif;   
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.navlist {
+    margin: 20px 0px;
+    width: 92vw;
+    /* border: 1px solid black; */
+    padding-left: 120px;
+    /* min-height: auto; */
+  }
+  
+  .navlist ul {
+    position: relative;
+    padding-top: 20px; 
+  }
+  
+  .navlist li {
+    position: relative;
+    padding: 20px ; 
+    float: left; 
+    text-align: center;
+    list-style-type: none; 
+  }
+  
+  /* code for the middle line */
+  .navlist li::before, .navlist li::after{
+    content: '';
+    position: absolute; 
+    top: 0; 
+    right: 50%;
+    width: 50%; 
+    height: 20px;
+    border-top: 1px solid black;
+  }
+  
+  /* code for the lines of division from the middle line */
+  .navlist li::after{
+    left: 50%;
+    right: auto; 
+    border-left: 1px solid black;
+}
+
+.navlist li:last-child::before{
+  border-right: 1px solid black;
+  border-radius: 0 5px 0 0;
+}
+  
+  .navlist li:only-child::after, .navlist li:only-child::before {
+    content: '';
+    display: none;
+  }
+  
+  .navlist li:only-child{ padding-top: 0;}
+  .navlist li:first-child::before, .navlist li:last-child::after{
+    border: 0 none;
+  }
+  
+  .navlist li:first-child::after{
+      border-radius: 5px 0 0 0;
+  }
+
+  /* code for the line above the middle line */
+  .navlist ul ul::before{
+    content: '';
+    position: absolute; top: 0; left: 50%;
+    border-left: 1px solid black;
+    width: 0; 
+    height: 20px;
+  }
+  
+  /* code for different boxes */
+  .navlist li a{
+    display: inline-block;
+    padding: 5px 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Kiwi Maru', serif;   
+    font-size: 21px;
+  }
+  
+  .navlist li a:hover{
+    color: black;
+    background: #f0be34;   
+    border: 1px solid #94a0b4;
+  }
+  
+  .footer{
+      margin-top: 200px;
+      display: flex;
+      justify-content: space-between;
+      background-color: rgb(27, 219, 203);
+    font-family: 'Kiwi Maru', serif;   
+    padding: 15px;
+      /* border: 1px solid black; */
+  }
+
+  span{
+      border: 1px solid black;
+      border-radius: 3px;
+      padding: 10px;
+  }
