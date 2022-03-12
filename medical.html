@@ -58,11 +58,33 @@
     <div id="mmvy" class="diffscheme">
         <h4>Mukhyamantri Medhavi Vidyarthi Yojana : </h4>
         <p>
+            <span id="dots">....</span>
+            <div id="display1">
+                
+            </div>
+            <button id="btn" onclick="readMore()">Read more</button>
         
         </p>
             <div><b> Link to the official website:</b> <a href=""></a></div>
     </div>
 
+    <script>
+        function readMore(){
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("display1");
+            var btnText = document.getElementById("btn");
+
+            if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+              } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+                }
+        }
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
