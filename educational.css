@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.navhead{
+    background-color: white;
+    color: red;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+    text-align: center;    
+}
+
+.school{
+    font-size: 30px;
+    font-family: 'Kiwi Maru', serif;   
+    margin: auto;
+}
+
+.navbar{
+    background-color: rgb(27, 219, 203);
+    font-family: 'Kiwi Maru', serif;   
+    padding: 15px;
+}
+
+.btn{
+    margin: 2px;
+}
+
+nav{
+    /* border: 1px solid black; */
+    margin-bottom: 2px;
+}
+nav a{
+    padding: 13px;
+    color: black;
+    border: green solid 1px;
+    border-radius: 3px;
+}
+nav a:hover{
+    color: white;
+    background-color:green;
+}
+
+h2{
+    background-color: rgb(170, 69, 238);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Kiwi Maru', serif;   
+    text-transform: uppercase;
+}
+
+.diffscheme{
+    font-family: 'Kiwi Maru', serif;  
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+}
+
+h4{
+    text-decoration: underline;
+}
+
+.diffscheme ul li{
+    list-style-type: disc;
+    list-style-position: inside;
+}
